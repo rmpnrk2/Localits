@@ -1,0 +1,63 @@
+p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "PottaOne";
+  src: url("src/fonts/PottaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Kalam";
+  src: url("src/fonts/Kalam-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Fondamento";
+  src: url("src/fonts/Fondamento-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Ephesis";
+  src: url("src/fonts/Ephesis-Regular.ttf");
+}
+
+@font-face {
+  font-family: "GoudyBookletter1911";
+  src: url("src/fonts/GoudyBookletter1911-Regular.ttf");
+}
+
+@font-face {
+  font-family: "DMSerifDisplay";
+  src: url("src/fonts/DMSerifDisplay-Regular.ttf");
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
